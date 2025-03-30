@@ -1,0 +1,9 @@
+{
+    "invoice_number": "E12345",
+    "invoice_date": "2025-01-02",
+    "vendor_name": "ABC Inc.",
+    "invoice_amount": "-1000.00",
+    "line_items": [
+      {"description": "Reversal of cleaning supplies", "quantity": "-1", "unit_price": "1000.00", "total_price": "-1000.00"}
+    ]
+  }

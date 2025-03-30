@@ -23,7 +23,7 @@ export class MongoStorage implements IStorage {
   private currentId: number;
 
   constructor() {
-    const mongoUri = process.env.MONGO_URI || "mongodb+srv://pranavwa:dqpfxtv5OfSOyQHj@cluster0.uwfwg.mongodb.net/";
+    const mongoUri = process.env.MONGO_URI || "YOUR MONGO DB DATABASE LINK HERE";
     this.client = new MongoClient(mongoUri);
     this.users = new Map();
     this.currentId = 1;

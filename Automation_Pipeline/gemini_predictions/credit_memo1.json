@@ -1,0 +1,14 @@
+{
+  "invoice_number": "E12345",
+  "invoice_date": "2025-01-02",
+  "vendor_name": "ABC INC.",
+  "invoice_amount": "1000.00",
+  "line_items": [
+    {
+      "description": null,
+      "quantity": "-1",
+      "unit_price": "1000.00",
+      "total_price": "-1000.00"
+    }
+  ]
+}
